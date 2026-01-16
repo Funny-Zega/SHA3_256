@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Jan  3 19:50:46 2026
+# Process ID         : 22812
+# Current directory  : C:/Users/acer/Downloads/SHA3/project_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent11524 C:\Users\acer\Downloads\SHA3\project_1\project_1.xpr
+# Log file           : C:/Users/acer/Downloads/SHA3/project_1/vivado.log
+# Journal file       : C:/Users/acer/Downloads/SHA3/project_1\vivado.jou
+# Running On         : LAPTOP-5KBABKCJ
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13900H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 34049 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36196 MB
+# Available Virtual  : 26394 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/acer/Downloads/SHA3/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project D:/HK251/BTL_TKLL/SHA_3/SHA_3.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/HK251/BTL_TKLL/SHA_3/SHA_3.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/HK251/BTL_TKLL/SHA_3/SHA_3.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+file delete -force D:/HK251/BTL_TKLL/SHA_3/SHA_3.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+export_ip_user_files -of_objects  [get_files D:/HK251/BTL_TKLL/SHA_3/SHA_3.srcs/sources_1/bd/design_1/design_1.bd] -no_script -reset -force -quiet
+remove_files  D:/HK251/BTL_TKLL/SHA_3/SHA_3.srcs/sources_1/bd/design_1/design_1.bd
+file delete -force D:/HK251/BTL_TKLL/SHA_3/SHA_3.srcs/sources_1/bd/design_1
+file delete -force d:/HK251/BTL_TKLL/SHA_3/SHA_3.gen/sources_1/bd/design_1
+launch_simulation
+source PATTERN_wrapper_v4.tcl
+run all
+close_sim
