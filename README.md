@@ -176,9 +176,9 @@ The `bridge_uart_sha3` module defines a specific state machine for communication
 4. **Processing**: The Wrapper pads the message and the SHA3 core runs for 24 rounds.
 5. **Output**: Once valid output is ready, the bridge sends 32 bytes (256 bits) back over UART.
 
-## Setup interface on the ArtyZ7-20 board
+## Setup interface on the ArtyZ7-20 board and Terminal 
 <img src="./ARTYZ7_BOARD.jpg" alt="INTERFACE" width="500"/>
-
+<img src="./Terminal_SHA3_256.jpg" alt="TERMINAL" width="500"/>
 ## Video-Checking
 https://github.com/Funny-Zega/SHA3_256/blob/main/Checking_SHA3_256.mp4
 
