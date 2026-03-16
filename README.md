@@ -176,6 +176,13 @@ The `bridge_uart_sha3` module defines a specific state machine for communication
 4. **Processing**: The Wrapper pads the message and the SHA3 core runs for 24 rounds.
 5. **Output**: Once valid output is ready, the bridge sends 32 bytes (256 bits) back over UART.
 
+## Setup interface on the ArtyZ7-20 board
+<img src="./ARTYZ7_BOARD.jpg" alt="INTERFACE" width="500"/>
+
+## Video-Checking
+<video src="./Checking_SHA3_256.mp4" controls="controls" style="max-width: 100%;">
+</video>
+
 ## Notes
 
 * **Clock Frequency**: Ensure the `CLK_FREQ` parameter in `top_system.v` matches your board's oscillator (default is set to 125MHz).
