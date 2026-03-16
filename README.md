@@ -180,8 +180,7 @@ The `bridge_uart_sha3` module defines a specific state machine for communication
 <img src="./ARTYZ7_BOARD.jpg" alt="INTERFACE" width="500"/>
 
 ## Video-Checking
-<video src="./Checking_SHA3_256.mp4" controls="controls" style="max-width: 100%;">
-</video>
+https://github.com/Funny-Zega/SHA3_256/blob/main/Checking_SHA3_256.mp4
 
 ## Notes
 
